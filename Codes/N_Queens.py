@@ -3,7 +3,6 @@ import time
 from threading import *
 import Codes.Start_Threading
 
-
 class N_queen:
     def __init__(self, size, speed):
         pygame.init()
@@ -80,7 +79,7 @@ class N_queen:
                 pygame.draw.rect(self.win, (232, 191, 9), [15, 615, 215, 50])
                 self.win.blit(pygame.font.SysFont('calibri', 25).render('Back to main menu', True, (59, 60, 84)),
                               (25, 627))
-            # if solved show at the below of the screen
+            # if solved show at the below of the screen then implement this
             if self.solved == 1:
                 self.win.blit(
                     pygame.font.SysFont('comicsans', 50).render(str(size) + ' Queens Solved!', True, (59, 60, 84)),
