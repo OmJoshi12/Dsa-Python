@@ -42,8 +42,8 @@ class Window:
         self.Algo = {'Searching': ['Linear Search', 'Binary Search'],
                      'Sorting': ['Selection Sort', 'Insertion Sort', 'Bubble Sort', 'Merge Sort', 'Quick Sort',
                                  'Heap Sort', 'Shell Sort', 'Radix Sort'],
-                     'Backtracking': ['Sudoku', 'N-Queens', "Knight's Tour"],
-                     'DP Table': ['Coming Soon!']}
+                     'Backtracking': [ 'N-Queens', "Knight's Tour"],
+                    }
 
         # Two dropdown menu on algorithm type and algorithm name
         self.AlgoTypeVar = StringVar()
