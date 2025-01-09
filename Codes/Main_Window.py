@@ -45,6 +45,7 @@ class Window:
                      'Backtracking': [ 'N-Queens', "Knight's Tour"],
                     }
 
+
         # Two dropdown menu on algorithm type and algorithm name
         self.AlgoTypeVar = StringVar()
         self.AlgoNameVar = StringVar()

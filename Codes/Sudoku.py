@@ -5,6 +5,7 @@ import random
 from threading import *
 
 
+
 class Grid:
     def __init__(self, board, rows, cols, width, height, win):
         self.rows = rows

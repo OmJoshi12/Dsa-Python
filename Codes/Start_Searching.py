@@ -14,6 +14,7 @@ class Searching:
         # Sorting window
         self.root = root
 
+
         # warning for close/exit
         self.root.protocol("WM_DELETE_WINDOW", self.Close)
 

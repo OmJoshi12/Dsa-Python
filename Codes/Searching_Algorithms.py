@@ -17,8 +17,8 @@ def algochooser(numbers, paint, label_comparison, label_index, algo_name, speed,
         label_index.configure(text="")
         binarysearch(numbers, paint, label_comparison, label_index, speed, int(searched_element))
         cmp = 0
-
-
+ 
+ #linear search
 def linearsearch(number, paint, label_comparison, label_index, speed, searched_element):
     global cmp
     index = -1

@@ -17,6 +17,7 @@ class Sorting:
         # warning for close/exit
         self.root.protocol("WM_DELETE_WINDOW", self.Close)
 
+
         # Selected Algorithm Name
         self.AlgoNameVar = AlgoNameVar
 

@@ -5,6 +5,7 @@ import time
 from threading import *
 import Codes.Start_Threading
 
+
 class Knight():
     def __init__(self, size, speed):
         self.n = size

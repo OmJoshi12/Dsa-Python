@@ -36,6 +36,7 @@ def algochooser(numbers, paint, label_comparison, something, TYPE_OF_DRAW, speed
             paint(["lawn green"] * len(numbers))
         cmp = 0
 
+
     elif something == "Heap Sort":
         label_comparison.configure(text="No. of comparisons: 0")
         heapsort(numbers, paint, label_comparison, speed)
